@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Newtonsoft.Json.Linq.JsonPath;
 using Newtonsoft.Json.Linq;
 
 namespace NugetAssetExtractor
