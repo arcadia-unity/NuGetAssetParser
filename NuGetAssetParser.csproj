@@ -7,8 +7,8 @@
     <ProjectGuid>{15CDAF80-7056-42ED-A6B2-0A89508022A5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NugetAssetExtractor</RootNamespace>
-    <AssemblyName>NugetAssetExtractor</AssemblyName>
+    <RootNamespace>NuGetAssetParser</RootNamespace>
+    <AssemblyName>NuGetAssetParser</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -59,7 +59,7 @@
   <Target Name="AfterBuild" Condition="'$(Configuration)' == 'Release'">
 
     <ItemGroup>
-      <InputAssemblies Include="$(OutputPath)\NugetAssetExtractor.exe" />
+      <InputAssemblies Include="$(OutputPath)\NuGetAssetParser.exe" />
       <InputAssemblies Include="$(OutputPath)\Newtonsoft.Json.dll" />
     </ItemGroup>
 

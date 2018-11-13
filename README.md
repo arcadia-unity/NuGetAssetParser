@@ -1,5 +1,5 @@
-Nuget Asset Extractor
-=====================
+NuGet Asset Parser
+==================
 
 Utility to extract a list of assets from Nuget project.assets.json files
 
@@ -9,7 +9,7 @@ Usage
 -----
 
 ```
-$ mono NugetAssetExtractor.exe project.assets.json 4.6
+$ mono NugetAssetParser.exe project.assets.json 4.6
 lazydata/0.3.2/content/clojure
 lazydata/0.3.2/lib/net46/LazyData.dll
 lazydata/0.3.2/lib/net46/LazyData.dll

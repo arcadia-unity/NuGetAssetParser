@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NugetAssetExtractor", "NugetAssetExtractor.csproj", "{15CDAF80-7056-42ED-A6B2-0A89508022A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGetAssetParser", "NuGetAssetParser.csproj", "{15CDAF80-7056-42ED-A6B2-0A89508022A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
